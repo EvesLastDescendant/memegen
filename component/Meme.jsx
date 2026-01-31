@@ -57,7 +57,7 @@ export default function Form() {
                 />
                 </span>
                 <br/>
-                <button onClick={getRandMemeImg}>Get a new meme img🖼️</button>
+                <button onClick={getRandMemeImg} className={`gen-btn`}>Get a new meme img🖼️</button>
             </div>
             <div className="meme">
                 <img src= {memesData.randomImg} loading="lazy" className="meme-img"/>
